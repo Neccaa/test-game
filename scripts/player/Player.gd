@@ -6,7 +6,7 @@ export var gravity := 900
 export var coyote_time := 0.15     # toleransi setelah jatuh
 export var jump_buffer_time := 0.15 # toleransi sebelum menyentuh lantai
 export var max_jumps := 2          # jumlah maksimal lompat
-export var double_jump_multiplier := 0.8 # seberapa tinggi lompatan kedua
+export var double_jump_multiplier := 0.9 # seberapa tinggi lompatan kedua
 
 var velocity = Vector2.ZERO
 var coyote_timer = 0.0
